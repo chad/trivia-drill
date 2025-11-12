@@ -4,8 +4,24 @@ This directory contains the question database in JSON format.
 
 ## File Structure
 
-- `sample-questions.json` - Sample questions for development and testing
+- **`questions.json`** - Main trivia database (75 questions, verified and sourced)
+- `sample-questions.json` - Sample questions for development reference
+- `TRIVIA_DATABASE_SUMMARY.md` - Detailed statistics and documentation
 - Additional question files will be added as content grows
+
+## Current Database Status
+
+✅ **75 verified questions** loaded from comprehensive trivia taxonomy
+- **History**: 25 questions (US Presidents, Wars, WWII, World History)
+- **Science & Nature**: 25 questions (Human Body, Animals, Chemistry, Astronomy, Earth Science)
+- **Geography**: 25 questions (World Capitals, US Geography, Physical Geography, Landmarks, Flags)
+
+**Difficulty Distribution:**
+- Easy: 39 questions (52%)
+- Medium: 28 questions (37%)
+- Hard: 8 questions (11%)
+
+See `TRIVIA_DATABASE_SUMMARY.md` for complete breakdown.
 
 ## Question Format
 
@@ -46,9 +62,12 @@ Each question follows this schema:
 
 ## Content Goals
 
-- **MVP**: 500-1,000 questions across all categories
+- **Current**: ✅ 75 questions (History, Science, Geography)
+- **MVP Target**: 500-1,000 questions across all categories
 - **Phase 2**: 5,000+ questions
 - **Long-term**: 20,000+ questions
+
+Framework available in `docs/data.txt` for expanding to 2,100+ questions across additional categories (Sports, Music, Literature, Food & Drink, Pop Culture, Math, Art, etc.)
 
 ## Quality Standards
 

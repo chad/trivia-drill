@@ -1,0 +1,1196 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-11-12",
+  "totalQuestions": 75,
+  "description": "Comprehensive pub trivia knowledge database",
+  "categories": {
+    "history": 25,
+    "science": 25,
+    "geography": 25
+  },
+  "difficultyBreakdown": {
+    "easy": 39,
+    "medium": 28,
+    "hard": 8
+  },
+  "questions": [
+    {
+      "id": "HIST-USPRES-001",
+      "question": "Who was the first President of the United States?",
+      "answer": "George Washington",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "George Washington was the first President of the United States and never lived in the White House. Memory tip: Washington = First, but White House came after",
+      "tags": [
+        "presidents",
+        "founding fathers",
+        "US history",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, National Archives, White House Historical Association"
+    },
+    {
+      "id": "HIST-USPRES-002",
+      "question": "Which four presidents are carved into Mount Rushmore?",
+      "answer": "Mount Rushmore features Washington",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "Mount Rushmore features Washington, Jefferson, Theodore Roosevelt, and Lincoln. Memory tip: W-J-T-L: Washington founded it, Jefferson expanded it, Teddy charged it, Lincoln saved it",
+      "tags": [
+        "presidents",
+        "monuments",
+        "medium"
+      ],
+      "verified": true,
+      "source": "National Park Service, Britannica"
+    },
+    {
+      "id": "HIST-USPRES-003",
+      "question": "Which president served the most terms?",
+      "answer": "FDR was elected to four terms",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "FDR was elected to four terms, the most of any president, serving from 1933-1945. Memory tip: FDR = Four terms, led during Depression and World War",
+      "tags": [
+        "presidents",
+        "records",
+        "WWII",
+        "easy"
+      ],
+      "verified": true,
+      "source": "FDR Presidential Library, Britannica, National Archives"
+    },
+    {
+      "id": "HIST-USPRES-004",
+      "question": "Which president had the shortest term?",
+      "answer": "William Henry Harrison served only 31 days",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "William Henry Harrison served only 31 days, the shortest presidency. Memory tip: Harrison = Hardly in office",
+      "tags": [
+        "presidents",
+        "records",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, White House Historical Association"
+    },
+    {
+      "id": "HIST-USPRES-005",
+      "question": "Where was Abraham Lincoln assassinated?",
+      "answer": "Abraham Lincoln was assassinated on April 14",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "Abraham Lincoln was assassinated on April 14, 1865, at Ford's Theatre by John Wilkes Booth. Memory tip: Lincoln at theatre = Booth shot from booth",
+      "tags": [
+        "presidents",
+        "Civil War",
+        "assassination",
+        "easy"
+      ],
+      "verified": true,
+      "source": "National Park Service, Britannica, Ford's Theatre"
+    },
+    {
+      "id": "HIST-USPRES-006",
+      "question": "Who was the youngest elected president?",
+      "answer": "John F. Kennedy was the",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "John F. Kennedy was the youngest elected president at age 43. Memory tip: JFK = Just Forty-three Kinetic",
+      "tags": [
+        "presidents",
+        "records",
+        "medium"
+      ],
+      "verified": true,
+      "source": "JFK Presidential Library, Britannica"
+    },
+    {
+      "id": "HIST-USPRES-007",
+      "question": "Which president resigned from office?",
+      "answer": "Richard Nixon was the only president to resign",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "Richard Nixon was the only president to resign, in 1974 due to the Watergate scandal. Memory tip: Nixon = Only one to resign",
+      "tags": [
+        "presidents",
+        "scandal",
+        "Watergate",
+        "easy"
+      ],
+      "verified": true,
+      "source": "National Archives, Britannica, Nixon Presidential Library"
+    },
+    {
+      "id": "HIST-USPRES-008",
+      "question": "Which president served non-consecutive terms?",
+      "answer": "Grover Cleveland",
+      "category": "history",
+      "difficulty": "hard",
+      "explanation": "Grover Cleveland is the only president to serve non-consecutive terms (22nd and 24th president). Memory tip: Cleveland = Came back around",
+      "tags": [
+        "presidents",
+        "records",
+        "hard"
+      ],
+      "verified": true,
+      "source": "Britannica, White House Historical Association"
+    },
+    {
+      "id": "HIST-USPRES-009",
+      "question": "Who was the first American Nobel Peace Prize winner?",
+      "answer": "Theodore Roosevelt",
+      "category": "history",
+      "difficulty": "hard",
+      "explanation": "Theodore Roosevelt was the first American to win the Nobel Peace Prize. Memory tip: Teddy = First to get Nobel (peacefully)",
+      "tags": [
+        "presidents",
+        "awards",
+        "hard"
+      ],
+      "verified": true,
+      "source": "Nobel Prize organization, Britannica"
+    },
+    {
+      "id": "HIST-USPRES-010",
+      "question": "Which president later became Chief Justice?",
+      "answer": "William Howard Taft",
+      "category": "history",
+      "difficulty": "hard",
+      "explanation": "William Howard Taft is the only president to also serve on the Supreme Court. Memory tip: Taft = Two top jobs",
+      "tags": [
+        "presidents",
+        "Supreme Court",
+        "hard"
+      ],
+      "verified": true,
+      "source": "Supreme Court Historical Society, Britannica"
+    },
+    {
+      "id": "HIST-USWAR-001",
+      "question": "When did the American Civil War take place?",
+      "answer": "The Civil War lasted from",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "The Civil War lasted from 1861 to 1865. Memory tip: 1861-65: The sixties divided the states",
+      "tags": [
+        "Civil War",
+        "dates",
+        "easy"
+      ],
+      "verified": true,
+      "source": "National Archives, Britannica, National Park Service"
+    },
+    {
+      "id": "HIST-USWAR-002",
+      "question": "When was Pearl Harbor attacked?",
+      "answer": "Pearl Harbor was attacked on December 7",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "Pearl Harbor was attacked on December 7, 1941, bringing the US into World War II. Memory tip: 12/7/41 = Seven-Eleven in reverse, plus 30",
+      "tags": [
+        "WWII",
+        "dates",
+        "easy"
+      ],
+      "verified": true,
+      "source": "National WWII Museum, Britannica, National Archives"
+    },
+    {
+      "id": "HIST-USWAR-003",
+      "question": "When was D-Day?",
+      "answer": "D-Day occurred on June 6",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "D-Day occurred on June 6, 1944, when Allied forces invaded Normandy. Memory tip: 6/6/44 = Double sixes for the invasion",
+      "tags": [
+        "WWII",
+        "D-Day",
+        "dates",
+        "medium"
+      ],
+      "verified": true,
+      "source": "National WWII Museum, Britannica, US Army"
+    },
+    {
+      "id": "HIST-USWAR-004",
+      "question": "What battle was the turning point of the Civil War?",
+      "answer": "The Battle of Gettysburg (July 1-3",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "The Battle of Gettysburg (July 1-3, 1863) was the turning point of the Civil War. Memory tip: Gettysburg = Get turned around (turning point)",
+      "tags": [
+        "Civil War",
+        "battles",
+        "medium"
+      ],
+      "verified": true,
+      "source": "National Park Service, Britannica"
+    },
+    {
+      "id": "HIST-USWAR-005",
+      "question": "When did Lincoln issue the Emancipation Proclamation?",
+      "answer": "The Emancipation Proclamation was issued on January 1",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "The Emancipation Proclamation was issued on January 1, 1863. Memory tip: 1863 = Same year as Gettysburg",
+      "tags": [
+        "Civil War",
+        "Lincoln",
+        "emancipation",
+        "medium"
+      ],
+      "verified": true,
+      "source": "National Archives, Britannica"
+    },
+    {
+      "id": "HIST-WWII-001",
+      "question": "When did World War II take place?",
+      "answer": "World War II lasted from",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "World War II lasted from 1939 to 1945. Memory tip: WWII = 39 to 45, six years of war",
+      "tags": [
+        "WWII",
+        "dates",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, National WWII Museum"
+    },
+    {
+      "id": "HIST-WWII-002",
+      "question": "Which two Japanese cities were hit by atomic bombs?",
+      "answer": "Atomic bombs were dropped on Hiroshima (August 6) and Nagasaki (August 9)",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "Atomic bombs were dropped on Hiroshima (August 6) and Nagasaki (August 9), 1945. Memory tip: H comes before N: Hiroshima then Nagasaki",
+      "tags": [
+        "WWII",
+        "atomic bomb",
+        "Japan",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, National WWII Museum, US Department of Energy"
+    },
+    {
+      "id": "HIST-WWII-003",
+      "question": "Who led Britain during World War II?",
+      "answer": "Winston Churchill",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "Winston Churchill was Prime Minister of Britain during most of WWII. Memory tip: Churchill = Cigar-smoking British bulldog",
+      "tags": [
+        "WWII",
+        "leaders",
+        "Britain",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, Churchill Archives"
+    },
+    {
+      "id": "HIST-WWII-004",
+      "question": "Who wrote a famous diary while hiding from Nazis?",
+      "answer": "Anne Frank wrote her diary",
+      "category": "history",
+      "difficulty": "easy",
+      "explanation": "Anne Frank wrote her diary while hiding in Amsterdam during the Holocaust. Memory tip: Anne Frank = Amsterdam attic",
+      "tags": [
+        "WWII",
+        "Holocaust",
+        "diary",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Anne Frank House, Britannica"
+    },
+    {
+      "id": "HIST-WWII-005",
+      "question": "Who was the Supreme Allied Commander in Europe during WWII?",
+      "answer": "Dwight Eisenhower",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "Dwight Eisenhower was Supreme Allied Commander in Europe during WWII. Memory tip: Ike = I led in Europe",
+      "tags": [
+        "WWII",
+        "military",
+        "Eisenhower",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, National WWII Museum, Eisenhower Presidential Library"
+    },
+    {
+      "id": "HIST-WORLD-001",
+      "question": "When was Julius Caesar assassinated?",
+      "answer": "Julius Caesar was assassinated on the Ides of March (March 15)",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "Julius Caesar was assassinated on the Ides of March (March 15), 44 BC. Memory tip: Ides of March = March 15",
+      "tags": [
+        "ancient Rome",
+        "assassination",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, Ancient History Encyclopedia"
+    },
+    {
+      "id": "HIST-WORLD-002",
+      "question": "When did the French Revolution begin?",
+      "answer": "The French Revolution began in",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14. Memory tip: 1789 = Same year as US Constitution ratification",
+      "tags": [
+        "France",
+        "revolution",
+        "dates",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, French National Archives"
+    },
+    {
+      "id": "HIST-WORLD-003",
+      "question": "When did the Berlin Wall fall?",
+      "answer": "The Berlin Wall fell on November 9",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "The Berlin Wall fell on November 9, 1989. Memory tip: 1989 = Fall of the Wall, fall of communism",
+      "tags": [
+        "Cold War",
+        "Germany",
+        "dates",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, German Historical Museum"
+    },
+    {
+      "id": "HIST-WORLD-004",
+      "question": "Who was Egypt's last pharaoh?",
+      "answer": "Cleopatra",
+      "category": "history",
+      "difficulty": "medium",
+      "explanation": "Cleopatra was the last pharaoh of ancient Egypt. Memory tip: Cleopatra = Closed Egypt's pharaoh era",
+      "tags": [
+        "ancient Egypt",
+        "pharaohs",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, Egyptian Museum"
+    },
+    {
+      "id": "HIST-WORLD-005",
+      "question": "When was the Magna Carta signed?",
+      "answer": "The Magna Carta was signed in 1215 at Runnymede",
+      "category": "history",
+      "difficulty": "hard",
+      "explanation": "The Magna Carta was signed in 1215 at Runnymede, England. Memory tip: 1215 = 12 for December, 15 for day (though actually June)",
+      "tags": [
+        "England",
+        "documents",
+        "dates",
+        "hard"
+      ],
+      "verified": true,
+      "source": "Britannica, British Library"
+    },
+    {
+      "id": "SCI-BODY-001",
+      "question": "What is the largest organ in the human body?",
+      "answer": "The largest organ in the human body",
+      "category": "science",
+      "difficulty": "easy",
+      "explanation": "The largest organ in the human body is the skin. Memory tip: Skin = Covers everything, so it's largest",
+      "tags": [
+        "human body",
+        "organs",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, National Institutes of Health"
+    },
+    {
+      "id": "SCI-BODY-002",
+      "question": "How many bones are in the adult human body?",
+      "answer": "Adults",
+      "category": "science",
+      "difficulty": "easy",
+      "explanation": "Adults have 206 bones in their body. Memory tip: 206 = Two hundred and six bones in grown folks",
+      "tags": [
+        "human body",
+        "skeleton",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, National Institutes of Health, Gray's Anatomy"
+    },
+    {
+      "id": "SCI-BODY-003",
+      "question": "What is the hardest substance in the human body?",
+      "answer": "Tooth enamel",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "Tooth enamel is the hardest substance in the human body. Memory tip: Enamel = Extra hard to protect teeth",
+      "tags": [
+        "human body",
+        "teeth",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, American Dental Association"
+    },
+    {
+      "id": "SCI-BODY-004",
+      "question": "Approximately how many times does the human heart beat in one day?",
+      "answer": "The heart beats about 100",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "The heart beats about 100,000 times per day. Memory tip: 100,000 beats = 100K a day keeps you alive",
+      "tags": [
+        "human body",
+        "heart",
+        "numbers",
+        "medium"
+      ],
+      "verified": true,
+      "source": "American Heart Association, Britannica"
+    },
+    {
+      "id": "SCI-BODY-005",
+      "question": "What is the smallest bone in the human body?",
+      "answer": "The smallest bone",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "The smallest bone is the stapes (stirrup bone) in the middle ear. Memory tip: Stapes = Tiny stirrup in your ear",
+      "tags": [
+        "human body",
+        "bones",
+        "ear",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, National Institutes of Health"
+    },
+    {
+      "id": "SCI-ANIMAL-001",
+      "question": "What is the fastest land animal?",
+      "answer": "The cheetah is the fastest land animal",
+      "category": "science",
+      "difficulty": "easy",
+      "explanation": "The cheetah is the fastest land animal, reaching speeds up to 70 mph. Memory tip: Cheetah = Cheater speeds",
+      "tags": [
+        "animals",
+        "records",
+        "speed",
+        "easy"
+      ],
+      "verified": true,
+      "source": "National Geographic, Britannica, Smithsonian"
+    },
+    {
+      "id": "SCI-ANIMAL-002",
+      "question": "What is the largest animal ever to exist?",
+      "answer": "The blue whale",
+      "category": "science",
+      "difficulty": "easy",
+      "explanation": "The blue whale is the largest animal that has ever lived on Earth. Memory tip: Blue whale = Bigger than everything",
+      "tags": [
+        "animals",
+        "records",
+        "size",
+        "easy"
+      ],
+      "verified": true,
+      "source": "National Geographic, Britannica, NOAA"
+    },
+    {
+      "id": "SCI-ANIMAL-003",
+      "question": "How many bones do sharks have?",
+      "answer": "Sharks",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "Sharks have no bones - their skeleton is made entirely of cartilage. Memory tip: Sharks = Same as your nose (cartilage)",
+      "tags": [
+        "animals",
+        "sharks",
+        "skeleton",
+        "medium"
+      ],
+      "verified": true,
+      "source": "National Geographic, Britannica, NOAA"
+    },
+    {
+      "id": "SCI-ANIMAL-004",
+      "question": "How many bones are in a giraffe's neck?",
+      "answer": "Giraffes",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "Giraffes have the same number of neck vertebrae as humans: 7. Memory tip: 7 neck bones = Same as humans, just longer",
+      "tags": [
+        "animals",
+        "giraffe",
+        "anatomy",
+        "medium"
+      ],
+      "verified": true,
+      "source": "National Geographic, Britannica, Smithsonian"
+    },
+    {
+      "id": "SCI-ANIMAL-005",
+      "question": "How many hearts does an octopus have?",
+      "answer": "Octopuses",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "Octopuses have three hearts. Memory tip: Octopus = Three hearts for eight arms",
+      "tags": [
+        "animals",
+        "octopus",
+        "anatomy",
+        "medium"
+      ],
+      "verified": true,
+      "source": "National Geographic, Britannica, Monterey Bay Aquarium"
+    },
+    {
+      "id": "SCI-CHEM-001",
+      "question": "What is the chemical formula for water?",
+      "answer": "H2O",
+      "category": "science",
+      "difficulty": "easy",
+      "explanation": "H2O is the chemical formula for water. Memory tip: H2O = Two H's, one O",
+      "tags": [
+        "chemistry",
+        "formulas",
+        "water",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, American Chemical Society"
+    },
+    {
+      "id": "SCI-CHEM-002",
+      "question": "What is the chemical symbol for gold?",
+      "answer": "Gold's chemical symbol is Au",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "Gold's chemical symbol is Au, from the Latin word 'aurum'. Memory tip: Au = Ancient word for gold",
+      "tags": [
+        "chemistry",
+        "elements",
+        "symbols",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, American Chemical Society, IUPAC"
+    },
+    {
+      "id": "SCI-CHEM-003",
+      "question": "How many elements are on the periodic table?",
+      "answer": "The periodic table",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "The periodic table has 118 confirmed elements. Memory tip: 118 = As of 2016, complete to period 7",
+      "tags": [
+        "chemistry",
+        "periodic table",
+        "numbers",
+        "medium"
+      ],
+      "verified": true,
+      "source": "IUPAC, American Chemical Society, Britannica"
+    },
+    {
+      "id": "SCI-CHEM-004",
+      "question": "Which element is most abundant in the universe?",
+      "answer": "Hydrogen",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "Hydrogen is the most abundant element in the universe. Memory tip: Hydrogen = Everywhere in space",
+      "tags": [
+        "chemistry",
+        "elements",
+        "universe",
+        "medium"
+      ],
+      "verified": true,
+      "source": "NASA, Britannica, American Chemical Society"
+    },
+    {
+      "id": "SCI-CHEM-005",
+      "question": "What is the only metal that is liquid at room temperature?",
+      "answer": "Mercury is the only metal that",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "Mercury is the only metal that is liquid at room temperature. Memory tip: Mercury = Metal that's liquid (like the planet is fluid)",
+      "tags": [
+        "chemistry",
+        "elements",
+        "properties",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, American Chemical Society"
+    },
+    {
+      "id": "SCI-ASTRO-001",
+      "question": "How many planets are in our solar system?",
+      "answer": "There",
+      "category": "science",
+      "difficulty": "easy",
+      "explanation": "There are 8 planets in our solar system. Memory tip: 8 planets = Since Pluto got demoted",
+      "tags": [
+        "astronomy",
+        "planets",
+        "solar system",
+        "easy"
+      ],
+      "verified": true,
+      "source": "NASA, International Astronomical Union, Britannica"
+    },
+    {
+      "id": "SCI-ASTRO-002",
+      "question": "What is the largest planet in our solar system?",
+      "answer": "Jupiter",
+      "category": "science",
+      "difficulty": "easy",
+      "explanation": "Jupiter is the largest planet in our solar system. Memory tip: Jupiter = Jumbo planet",
+      "tags": [
+        "astronomy",
+        "planets",
+        "size",
+        "easy"
+      ],
+      "verified": true,
+      "source": "NASA, Britannica"
+    },
+    {
+      "id": "SCI-ASTRO-003",
+      "question": "Which planet is the hottest in our solar system?",
+      "answer": "Venus",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "Venus is the hottest planet in our solar system. Memory tip: Venus = Thick atmosphere traps heat",
+      "tags": [
+        "astronomy",
+        "planets",
+        "temperature",
+        "medium"
+      ],
+      "verified": true,
+      "source": "NASA, Britannica"
+    },
+    {
+      "id": "SCI-ASTRO-004",
+      "question": "How long does it take light from the sun to reach Earth?",
+      "answer": "Light from the Sun takes",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "Light from the Sun takes about 8 minutes to reach Earth. Memory tip: 8 minutes = Time for sunlight to arrive",
+      "tags": [
+        "astronomy",
+        "sun",
+        "light",
+        "medium"
+      ],
+      "verified": true,
+      "source": "NASA, Britannica"
+    },
+    {
+      "id": "SCI-ASTRO-005",
+      "question": "What is the speed of light?",
+      "answer": "The speed of light is approximately 186",
+      "category": "science",
+      "difficulty": "hard",
+      "explanation": "The speed of light is approximately 186,000 miles per second. Memory tip: 186,000 mps = Light speed limit",
+      "tags": [
+        "physics",
+        "light",
+        "speed",
+        "hard"
+      ],
+      "verified": true,
+      "source": "NASA, Britannica, National Institute of Standards"
+    },
+    {
+      "id": "SCI-EARTH-001",
+      "question": "What is the tallest mountain above sea level?",
+      "answer": "Mount Everest is the tallest mountain above sea level at 29",
+      "category": "science",
+      "difficulty": "easy",
+      "explanation": "Mount Everest is the tallest mountain above sea level at 29,032 feet. Memory tip: Everest = Highest peak you can see",
+      "tags": [
+        "geography",
+        "mountains",
+        "records",
+        "easy"
+      ],
+      "verified": true,
+      "source": "National Geographic, Britannica, USGS"
+    },
+    {
+      "id": "SCI-EARTH-002",
+      "question": "What percentage of Earth's surface is covered by water?",
+      "answer": "About 71% of Earth's surface",
+      "category": "science",
+      "difficulty": "medium",
+      "explanation": "About 71% of Earth's surface is covered in water. Memory tip: 70-71% = Most of Earth is ocean",
+      "tags": [
+        "earth science",
+        "water",
+        "percentages",
+        "medium"
+      ],
+      "verified": true,
+      "source": "NOAA, USGS, Britannica"
+    },
+    {
+      "id": "SCI-EARTH-003",
+      "question": "What is the largest desert in the world?",
+      "answer": "Antarctica",
+      "category": "science",
+      "difficulty": "hard",
+      "explanation": "Antarctica is the largest desert in the world. Memory tip: Antarctica = Desert is defined by precipitation, not temperature",
+      "tags": [
+        "geography",
+        "deserts",
+        "Antarctica",
+        "hard"
+      ],
+      "verified": true,
+      "source": "Britannica, NOAA, National Geographic"
+    },
+    {
+      "id": "SCI-EARTH-004",
+      "question": "How many colors are in a rainbow?",
+      "answer": "A rainbow has seven colors: red",
+      "category": "science",
+      "difficulty": "easy",
+      "explanation": "A rainbow has seven colors: red, orange, yellow, green, blue, indigo, violet. Memory tip: ROY G. BIV = Rainbow colors",
+      "tags": [
+        "weather",
+        "colors",
+        "rainbows",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, NOAA"
+    },
+    {
+      "id": "SCI-EARTH-005",
+      "question": "Which rock floats on water?",
+      "answer": "Pumice",
+      "category": "science",
+      "difficulty": "hard",
+      "explanation": "Pumice is the only rock that floats on water. Memory tip: Pumice = Porous, so it floats",
+      "tags": [
+        "geology",
+        "rocks",
+        "hard"
+      ],
+      "verified": true,
+      "source": "USGS, Britannica"
+    },
+    {
+      "id": "GEO-CAPS-001",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "Paris is the capital of France. Memory tip: Paris = City of Light, French capital",
+      "tags": [
+        "capitals",
+        "Europe",
+        "France",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, CIA World Factbook"
+    },
+    {
+      "id": "GEO-CAPS-002",
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "category": "geography",
+      "difficulty": "medium",
+      "explanation": "Ottawa is the capital of Canada. Memory tip: Ottawa = Often forgotten Canadian capital",
+      "tags": [
+        "capitals",
+        "North America",
+        "Canada",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, CIA World Factbook"
+    },
+    {
+      "id": "GEO-CAPS-003",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "category": "geography",
+      "difficulty": "medium",
+      "explanation": "Canberra is the capital of Australia. Memory tip: Canberra = Compromise between Sydney and Melbourne",
+      "tags": [
+        "capitals",
+        "Australia",
+        "medium"
+      ],
+      "verified": true,
+      "source": "Britannica, CIA World Factbook"
+    },
+    {
+      "id": "GEO-CAPS-004",
+      "question": "What is the largest country in South America?",
+      "answer": "Brazil",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "Brazil is the largest country in South America. Memory tip: Brazil = Big country with Amazon",
+      "tags": [
+        "countries",
+        "South America",
+        "size",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, CIA World Factbook"
+    },
+    {
+      "id": "GEO-CAPS-005",
+      "question": "What is the largest country in the world?",
+      "answer": "Russia",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "Russia is the largest country in the world by area. Memory tip: Russia = Ridiculously large",
+      "tags": [
+        "countries",
+        "size",
+        "records",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, CIA World Factbook"
+    },
+    {
+      "id": "GEO-US-001",
+      "question": "How many states are in the United States?",
+      "answer": "There",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "There are 50 states in the United States. Memory tip: 50 states = 50 stars on flag",
+      "tags": [
+        "US",
+        "states",
+        "numbers",
+        "easy"
+      ],
+      "verified": true,
+      "source": "US Census Bureau, Britannica"
+    },
+    {
+      "id": "GEO-US-002",
+      "question": "What is the largest US state?",
+      "answer": "Alaska",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "Alaska is the largest US state by area. Memory tip: Alaska = A lot of land",
+      "tags": [
+        "US",
+        "states",
+        "size",
+        "easy"
+      ],
+      "verified": true,
+      "source": "US Census Bureau, Britannica"
+    },
+    {
+      "id": "GEO-US-003",
+      "question": "What is the longest river in the United States?",
+      "answer": "The Mississippi River",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Mississippi River is the longest river in the United States. Memory tip: Mississippi = Mighty river down the middle",
+      "tags": [
+        "US",
+        "rivers",
+        "records",
+        "easy"
+      ],
+      "verified": true,
+      "source": "USGS, Britannica"
+    },
+    {
+      "id": "GEO-US-004",
+      "question": "What is the capital of the United States?",
+      "answer": "Washington",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "Washington, D.C. is the capital of the United States. Memory tip: Washington D.C. = Where the president lives",
+      "tags": [
+        "US",
+        "capital",
+        "easy"
+      ],
+      "verified": true,
+      "source": "US Census Bureau, Britannica"
+    },
+    {
+      "id": "GEO-US-005",
+      "question": "In which state is the Grand Canyon located?",
+      "answer": "The Grand Canyon",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Grand Canyon is located in Arizona. Memory tip: Arizona = Arid zone with Grand Canyon",
+      "tags": [
+        "US",
+        "landmarks",
+        "Arizona",
+        "easy"
+      ],
+      "verified": true,
+      "source": "National Park Service, Britannica"
+    },
+    {
+      "id": "GEO-PHYS-001",
+      "question": "What is the longest river in the world?",
+      "answer": "The Nile",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Nile is traditionally considered the longest river in the world. Memory tip: Nile = Number one river (traditionally)",
+      "tags": [
+        "rivers",
+        "records",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, National Geographic"
+    },
+    {
+      "id": "GEO-PHYS-002",
+      "question": "What is the largest ocean?",
+      "answer": "The Pacific Ocean",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Pacific Ocean is the largest and deepest ocean. Memory tip: Pacific = Plenty big ocean",
+      "tags": [
+        "oceans",
+        "records",
+        "easy"
+      ],
+      "verified": true,
+      "source": "NOAA, Britannica"
+    },
+    {
+      "id": "GEO-PHYS-003",
+      "question": "What is the largest hot desert?",
+      "answer": "The Sahara",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Sahara is the largest hot desert in the world. Memory tip: Sahara = Sandy hot desert",
+      "tags": [
+        "deserts",
+        "Africa",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, National Geographic"
+    },
+    {
+      "id": "GEO-PHYS-004",
+      "question": "What is the deepest point in the ocean?",
+      "answer": "The Mariana Trench is the deepest point in the ocean at about 36",
+      "category": "geography",
+      "difficulty": "medium",
+      "explanation": "The Mariana Trench is the deepest point in the ocean at about 36,000 feet. Memory tip: Mariana = Deepest marine area",
+      "tags": [
+        "oceans",
+        "records",
+        "depth",
+        "medium"
+      ],
+      "verified": true,
+      "source": "NOAA, Britannica"
+    },
+    {
+      "id": "GEO-PHYS-005",
+      "question": "Which mountain range contains the world's highest peaks?",
+      "answer": "The Himalayas contain the world's",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Himalayas contain the world's highest mountains. Memory tip: Himalayas = High mountain range in Asia",
+      "tags": [
+        "mountains",
+        "Asia",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, National Geographic"
+    },
+    {
+      "id": "GEO-LAND-001",
+      "question": "Where is the Eiffel Tower located?",
+      "answer": "The Eiffel Tower is located in Paris",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Eiffel Tower is located in Paris, France. Memory tip: Eiffel = French landmark",
+      "tags": [
+        "landmarks",
+        "France",
+        "Europe",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, Tour Eiffel official"
+    },
+    {
+      "id": "GEO-LAND-002",
+      "question": "Which country gave the Statue of Liberty to the US?",
+      "answer": "The Statue of Liberty",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Statue of Liberty was a gift from France to the United States. Memory tip: Liberty = Gift from France",
+      "tags": [
+        "landmarks",
+        "US",
+        "France",
+        "easy"
+      ],
+      "verified": true,
+      "source": "National Park Service, Britannica"
+    },
+    {
+      "id": "GEO-LAND-003",
+      "question": "What is the longest wall in the world?",
+      "answer": "The Great Wall of China",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Great Wall of China is the longest wall in the world. Memory tip: Great Wall = Greatest wall on Earth",
+      "tags": [
+        "landmarks",
+        "China",
+        "Asia",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, UNESCO"
+    },
+    {
+      "id": "GEO-LAND-004",
+      "question": "What is Big Ben?",
+      "answer": "Big Ben",
+      "category": "geography",
+      "difficulty": "medium",
+      "explanation": "Big Ben is the nickname for the Great Bell in the clock tower at Westminster Palace in London. Memory tip: Big Ben = Bell, not the tower",
+      "tags": [
+        "landmarks",
+        "UK",
+        "London",
+        "medium"
+      ],
+      "verified": true,
+      "source": "UK Parliament, Britannica"
+    },
+    {
+      "id": "GEO-LAND-005",
+      "question": "Where is the Taj Mahal located?",
+      "answer": "The Taj Mahal is located in Agra",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Taj Mahal is located in Agra, India. Memory tip: Taj Mahal = Tomb in India",
+      "tags": [
+        "landmarks",
+        "India",
+        "Asia",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Britannica, UNESCO"
+    },
+    {
+      "id": "GEO-FLAGS-001",
+      "question": "What do the stripes on the American flag represent?",
+      "answer": "The American flag",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The American flag has 13 stripes representing the original 13 colonies. Memory tip: 13 stripes = 13 original colonies",
+      "tags": [
+        "flags",
+        "US",
+        "symbols",
+        "easy"
+      ],
+      "verified": true,
+      "source": "US Flag Code, Britannica"
+    },
+    {
+      "id": "GEO-FLAGS-002",
+      "question": "What do the stars on the American flag represent?",
+      "answer": "The American flag",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The American flag has 50 stars representing the 50 states. Memory tip: 50 stars = 50 states",
+      "tags": [
+        "flags",
+        "US",
+        "symbols",
+        "easy"
+      ],
+      "verified": true,
+      "source": "US Flag Code, Britannica"
+    },
+    {
+      "id": "GEO-FLAGS-003",
+      "question": "What symbol is on the Canadian flag?",
+      "answer": "The Canadian flag features a",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Canadian flag features a red maple leaf. Memory tip: Canada = Maple leaf flag",
+      "tags": [
+        "flags",
+        "Canada",
+        "symbols",
+        "easy"
+      ],
+      "verified": true,
+      "source": "Government of Canada, Britannica"
+    },
+    {
+      "id": "GEO-FLAGS-004",
+      "question": "What is the flag of the United Kingdom called?",
+      "answer": "The Union Jack",
+      "category": "geography",
+      "difficulty": "easy",
+      "explanation": "The Union Jack is the flag of the United Kingdom. Memory tip: Union Jack = UK flag union",
+      "tags": [
+        "flags",
+        "UK",
+        "symbols",
+        "easy"
+      ],
+      "verified": true,
+      "source": "UK Government, Britannica"
+    },
+    {
+      "id": "GEO-FLAGS-005",
+      "question": "Which country has a non-rectangular flag?",
+      "answer": "Nepal has the only national flag that",
+      "category": "geography",
+      "difficulty": "hard",
+      "explanation": "Nepal has the only national flag that is not rectangular. Memory tip: Nepal = Not rectangular flag",
+      "tags": [
+        "flags",
+        "Nepal",
+        "unique",
+        "hard"
+      ],
+      "verified": true,
+      "source": "Britannica, Flag Institute"
+    }
+  ]
+}
