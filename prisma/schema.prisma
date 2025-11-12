@@ -1,0 +1,130 @@
+// Prisma schema for Trivia Drill MVP
+// Database: PostgreSQL
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User model with authentication
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  passwordHash  String
+  name          String?
+  birthYear     Int?      // For age-adaptive content
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Learning profile
+  profile       UserProfile?
+
+  // Progress tracking
+  questionHistory QuestionHistory[]
+  categoryScores  CategoryScore[]
+  achievements    UserAchievement[]
+
+  @@map("users")
+}
+
+// User learning profile and preferences
+model UserProfile {
+  id                  String   @id @default(cuid())
+  userId              String   @unique
+  user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  triviaExperience    String   @default("beginner") // beginner, intermediate, advanced
+  preferredCategories String[] // Array of category names
+  dailyGoalMinutes    Int      @default(15)
+  currentStreak       Int      @default(0)
+  longestStreak       Int      @default(0)
+  lastActivityDate    DateTime?
+
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@map("user_profiles")
+}
+
+// Question history for spaced repetition
+model QuestionHistory {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  questionId      String   // Reference to question in JSON database
+  category        String
+  difficulty      String   // easy, medium, hard
+
+  isCorrect       Boolean
+  responseTime    Int      // milliseconds
+  confidence      String?  // low, medium, high (optional)
+
+  // Spaced repetition data
+  repetitionCount Int      @default(0)
+  easeFactor      Float    @default(2.5)  // SM-2 algorithm
+  interval        Int      @default(0)    // Days until next review
+  nextReviewDate  DateTime
+
+  attemptedAt     DateTime @default(now())
+
+  @@map("question_history")
+  @@index([userId, nextReviewDate])
+  @@index([questionId, userId])
+}
+
+// Category proficiency scores
+model CategoryScore {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  category        String
+  totalAttempts   Int      @default(0)
+  correctAnswers  Int      @default(0)
+  proficiencyScore Float   @default(0.0) // 0-100
+
+  lastAttemptDate DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@unique([userId, category])
+  @@map("category_scores")
+}
+
+// Achievements system
+model Achievement {
+  id              String   @id @default(cuid())
+  key             String   @unique // e.g., "geography_master"
+  name            String
+  description     String
+  iconUrl         String?
+  category        String   // learning, streak, social, etc.
+
+  // Unlock criteria
+  criteria        Json     // Flexible JSON for different achievement types
+
+  createdAt       DateTime @default(now())
+
+  userAchievements UserAchievement[]
+
+  @@map("achievements")
+}
+
+// User's unlocked achievements
+model UserAchievement {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  achievementId   String
+  achievement     Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+
+  unlockedAt      DateTime @default(now())
+
+  @@unique([userId, achievementId])
+  @@map("user_achievements")
+}

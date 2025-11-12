@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "id": "q001",
+      "question": "What year did World War II end?",
+      "answer": "1945",
+      "category": "history",
+      "difficulty": "easy",
+      "era": "1940s",
+      "culturalRelevance": "classic",
+      "explanation": "World War II ended in 1945 with Germany's surrender in May and Japan's surrender in September.",
+      "tags": ["world_war_2", "20th_century"],
+      "verified": true
+    },
+    {
+      "id": "q002",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "category": "geography",
+      "difficulty": "medium",
+      "culturalRelevance": "classic",
+      "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "explanation": "While Sydney and Melbourne are larger cities, Canberra is Australia's purpose-built capital city.",
+      "tags": ["capitals", "oceania"],
+      "verified": true
+    },
+    {
+      "id": "q003",
+      "question": "Who wrote the novel '1984'?",
+      "answer": "George Orwell",
+      "category": "literature",
+      "difficulty": "easy",
+      "era": "1940s",
+      "culturalRelevance": "classic",
+      "choices": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Kurt Vonnegut"],
+      "explanation": "George Orwell published '1984' in 1949, a dystopian novel about totalitarianism.",
+      "tags": ["dystopian", "british_literature"],
+      "verified": true
+    },
+    {
+      "id": "q004",
+      "question": "What is the chemical symbol for gold?",
+      "answer": "Au",
+      "category": "science",
+      "difficulty": "easy",
+      "culturalRelevance": "classic",
+      "explanation": "Gold's chemical symbol Au comes from its Latin name 'aurum'.",
+      "tags": ["chemistry", "periodic_table"],
+      "verified": true
+    },
+    {
+      "id": "q005",
+      "question": "Who won the Grammy for Album of the Year in 2021?",
+      "answer": "Taylor Swift (folklore)",
+      "category": "pop_culture_music",
+      "difficulty": "medium",
+      "era": "2020s",
+      "culturalRelevance": "current",
+      "explanation": "Taylor Swift won Album of the Year for 'folklore' at the 63rd Annual Grammy Awards.",
+      "tags": ["grammys", "taylor_swift", "modern_music"],
+      "verified": true
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "totalQuestions": 5,
+    "lastUpdated": "2025-11-12",
+    "categories": {
+      "history": 1,
+      "geography": 1,
+      "literature": 1,
+      "science": 1,
+      "pop_culture_music": 1
+    }
+  }
+}
