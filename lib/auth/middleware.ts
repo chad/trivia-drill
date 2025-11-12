@@ -20,7 +20,7 @@ export function authenticateRequest(request: NextRequest): TokenPayload {
 
   try {
     return verifyToken(token);
-  } catch (error) {
+  } catch {
     throw new Error('Invalid or expired authentication token');
   }
 }

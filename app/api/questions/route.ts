@@ -26,7 +26,10 @@ export async function GET(request: NextRequest) {
 
       case 'random':
       default:
-        const options: any = {};
+        const options: {
+          categories?: QuestionCategory[];
+          difficulties?: QuestionDifficulty[];
+        } = {};
         if (category) options.categories = [category];
         if (difficulty) options.difficulties = [difficulty];
 

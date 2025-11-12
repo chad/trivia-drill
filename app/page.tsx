@@ -1,4 +1,11 @@
+'use client';
+
+import Link from 'next/link';
+import { useAuth } from '@/lib/auth/AuthContext';
+
 export default function Home() {
+  const { user } = useAuth();
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <div className="container mx-auto px-4 py-16">
@@ -32,17 +39,39 @@ export default function Home() {
 
           {/* CTA Buttons */}
           <div className="mt-12 flex gap-4 justify-center">
-            <button className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-              Get Started
-            </button>
-            <button className="px-8 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-50 transition-colors border border-blue-600">
-              Learn More
-            </button>
+            <Link
+              href={user ? '/dashboard' : '/signup'}
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
+            >
+              {user ? 'Go to Dashboard' : 'Get Started'}
+            </Link>
+            <Link
+              href="/login"
+              className="px-8 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-50 transition-colors border border-blue-600 inline-block"
+            >
+              {user ? 'Dashboard' : 'Log In'}
+            </Link>
           </div>
 
           {/* Status Badge */}
-          <div className="mt-12 inline-block px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">
-            🚧 MVP in Development
+          <div className="mt-12 inline-block px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">
+            ✅ MVP Complete - Ready to Learn!
+          </div>
+
+          {/* Stats */}
+          <div className="mt-12 grid grid-cols-3 gap-6 max-w-2xl mx-auto">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-blue-600">75</div>
+              <div className="text-sm text-gray-600">Questions</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-blue-600">3</div>
+              <div className="text-sm text-gray-600">Categories</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-blue-600">100%</div>
+              <div className="text-sm text-gray-600">Verified</div>
+            </div>
           </div>
         </div>
       </div>
